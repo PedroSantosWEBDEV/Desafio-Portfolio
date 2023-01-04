@@ -7,20 +7,21 @@
   <meta name="description" content="Desmonstração de portfolio, tecnologias de conhecimento, educação e repositórios. ">
   <meta name="author" content="Pedro Santos">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="./src/css/style.css">
+  <!-- <link rel="stylesheet" href="./src/css/style.css"> -->
   <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+  <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/7adf1fbf24.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <aside>
-      <div class="base card">
+      <div class="lh-base card">
         <div class="profile">
           <img src="./src/img/perfil-img.jpg" class="userAvatar">
           <h1>Pedro Santos</h1>
           <p>Full-Stack Desenveloper</p>
         </div>
       </div>
-      <div class="base card">
+      <div class="lh-base card">
         <div class="links">
           <a href="#"><img src="./src/img/map-pin.svg"><span>Piaui</span></a>
           <a href="https://www.grupovanguarda.com/" target="_blank"><img src="./src/img/briefcase.svg">Grupo Vanguarda</a>
@@ -29,7 +30,7 @@
           <a href="#"><img src="./src/img/mail.svg">pedrocf125@gmail.com</a>
         </div>
       </div>
-      <div class="base card">
+      <div class="lh-base card">
         <div class="tecno">
           <h2>Tecnologias</h2>
           <div class="my-tecs">
@@ -45,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="base card">
+      <div class="lh-base card">
         <div class="experience">
           <h2>Experiências</h2>
           <ul>
@@ -57,7 +58,7 @@
           </ul>
         </div>
       </div>
-      <div class="base card">
+      <div class="lh-base card">
         <div class="education">
           <h2>Educação</h2>
           <ul>
@@ -81,8 +82,8 @@
       </div>
     </aside>
     <section>
-        <div class="my-projects card">
-          <h2>Meus projetos</h2>
+        <div class="my-projects">
+          <h2 class="card-title">Meus projetos</h2>
           <a href="https://github.com/PedroSantosWEBDEV?tab=repositories" target="_blank">Veja todos...</a>
         </div>
       <div>
@@ -91,5 +92,6 @@
       </div>
     </section>
   <script src="./src/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

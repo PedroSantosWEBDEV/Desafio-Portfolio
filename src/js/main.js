@@ -1,4 +1,4 @@
-const repos = 'https://api.github.com/users/ARCFives/repos'
+const repos = 'https://api.github.com/users/PedroSantosWEBDEV/repos'
 
 async function reposi() {
   const response = await fetch(repos)
