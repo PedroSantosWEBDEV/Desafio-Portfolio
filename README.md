@@ -4,22 +4,14 @@
 
 Neste desafio você poderá criar uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.
 
-## Layout
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59458c0d-cd54-4576-86c5-ae9f5a336aea/Untitled.png)
-
-Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate) ou baixar o zip com os assets do projeto.
-
-Baixe os assets aqui ⤵️
-
-[assets.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f928d510-0b8b-4a62-90b4-04e4046c00bd/assets.zip)
-
 # 🚀 **Techs**
 
 ---
 
 - HTML
 - CSS
+- Bootstrap
+- Nodejs
 
 # 💡**Como começar?**
 
